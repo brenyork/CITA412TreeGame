@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: b49b956e493f38c43932055079828a8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1307710231962507728
+    second: AnimatedBug_0
+  - first:
+      213: 7048503392255965797
+    second: AnimatedBug_1
+  - first:
+      213: -23197586326724763
+    second: AnimatedBug_2
+  - first:
+      213: -5255684981796219193
+    second: AnimatedBug_3
+  - first:
+      213: 2617011680788735442
+    second: AnimatedBug_4
+  - first:
+      213: -3354285826712782212
+    second: AnimatedBug_5
+  - first:
+      213: 7365640082346394847
+    second: AnimatedBug_6
+  - first:
+      213: -7600163652106697111
+    second: AnimatedBug_7
+  - first:
+      213: -2665310658700580405
+    second: AnimatedBug_8
+  - first:
+      213: -8677037546285292712
+    second: AnimatedBug_9
+  - first:
+      213: 3184764787270504892
+    second: AnimatedBug_10
+  - first:
+      213: 8701096953097505623
+    second: AnimatedBug_11
+  - first:
+      213: -1964664374941275196
+    second: AnimatedBug_12
+  - first:
+      213: 8838044532564738861
+    second: AnimatedBug_13
+  - first:
+      213: 4959163117532217674
+    second: AnimatedBug_14
+  - first:
+      213: -7450172232871420562
+    second: AnimatedBug_15
+  - first:
+      213: 6007351582978921305
+    second: AnimatedBug_16
+  - first:
+      213: -4831550955518200458
+    second: AnimatedBug_17
+  - first:
+      213: -4051842427150341227
+    second: AnimatedBug_18
+  - first:
+      213: 9042588600692137989
+    second: AnimatedBug_19
+  - first:
+      213: 8792923177026712903
+    second: AnimatedBug_20
+  - first:
+      213: -3587896593190716594
+    second: AnimatedBug_21
+  - first:
+      213: 7178093451018314327
+    second: AnimatedBug_22
+  - first:
+      213: -2292303169920927154
+    second: AnimatedBug_23
+  - first:
+      213: 8332940574707311913
+    second: AnimatedBug_24
+  - first:
+      213: -3580845028643166335
+    second: AnimatedBug_25
+  - first:
+      213: -5391485067926785095
+    second: AnimatedBug_26
+  - first:
+      213: -8899498566998551747
+    second: AnimatedBug_27
+  - first:
+      213: -4109951142183481960
+    second: AnimatedBug_28
+  - first:
+      213: -7558207836237575161
+    second: AnimatedBug_29
+  - first:
+      213: -1112576116345342350
+    second: AnimatedBug_30
+  - first:
+      213: 5341975694624138594
+    second: AnimatedBug_31
+  - first:
+      213: -1739931901899082670
+    second: AnimatedBug_32
+  - first:
+      213: 8605687884922237497
+    second: AnimatedBug_33
+  - first:
+      213: 6231115559257388710
+    second: AnimatedBug_34
+  - first:
+      213: -7639081471496329637
+    second: AnimatedBug_35
+  - first:
+      213: -172916333418944509
+    second: AnimatedBug_36
+  - first:
+      213: -8387046444402957901
+    second: AnimatedBug_37
+  - first:
+      213: 8894602697512513159
+    second: AnimatedBug_38
+  - first:
+      213: 6343230362652902673
+    second: AnimatedBug_39
+  - first:
+      213: 8862082247250284076
+    second: AnimatedBug_40
+  - first:
+      213: -7762007417102824618
+    second: AnimatedBug_41
+  - first:
+      213: -6329031310912021792
+    second: AnimatedBug_42
+  - first:
+      213: 7645017099698658730
+    second: AnimatedBug_43
+  - first:
+      213: 8446403445009312184
+    second: AnimatedBug_44
+  - first:
+      213: 110414019163468376
+    second: AnimatedBug_45
+  - first:
+      213: 8761102201746060967
+    second: AnimatedBug_46
+  - first:
+      213: 979746227247816739
+    second: AnimatedBug_47
+  - first:
+      213: 7376822306577389438
+    second: AnimatedBug_48
+  - first:
+      213: 6460510065186664454
+    second: AnimatedBug_49
+  - first:
+      213: -3521448170593588204
+    second: AnimatedBug_50
+  - first:
+      213: -3317334616030917881
+    second: AnimatedBug_51
+  - first:
+      213: 6750059819717408248
+    second: AnimatedBug_52
+  - first:
+      213: -1592060381022882047
+    second: AnimatedBug_53
+  - first:
+      213: -2768273631330231094
+    second: AnimatedBug_54
+  - first:
+      213: 2807528485239771003
+    second: AnimatedBug_55
+  - first:
+      213: 5662200252300126281
+    second: AnimatedBug_56
+  - first:
+      213: 3161533612969101494
+    second: AnimatedBug_57
+  - first:
+      213: -4192733641678078630
+    second: AnimatedBug_58
+  - first:
+      213: 1662307241940107519
+    second: AnimatedBug_59
+  - first:
+      213: -2540009664704795285
+    second: AnimatedBug_60
+  - first:
+      213: 7704432269764326977
+    second: AnimatedBug_61
+  - first:
+      213: -3456879998917652592
+    second: AnimatedBug_62
+  - first:
+      213: 6557313028259168649
+    second: AnimatedBug_63
+  - first:
+      213: -2456500700236656034
+    second: AnimatedBug_64
+  - first:
+      213: -7686512895138755491
+    second: AnimatedBug_65
+  - first:
+      213: -1177933192607832060
+    second: AnimatedBug_66
+  - first:
+      213: 4796689159812731203
+    second: AnimatedBug_67
+  - first:
+      213: 6214117536127780839
+    second: AnimatedBug_68
+  - first:
+      213: 3825512048154546590
+    second: AnimatedBug_69
+  - first:
+      213: -5377168526171998966
+    second: AnimatedBug_70
+  - first:
+      213: 8394371420858612355
+    second: AnimatedBug_71
+  - first:
+      213: -7471680495677778321
+    second: AnimatedBug_72
+  - first:
+      213: 7592957400762743708
+    second: AnimatedBug_73
+  - first:
+      213: -1645853617195682145
+    second: AnimatedBug_74
+  - first:
+      213: -4091193481512686767
+    second: AnimatedBug_75
+  - first:
+      213: -2569815039719330058
+    second: AnimatedBug_76
+  - first:
+      213: -3138036885863852523
+    second: AnimatedBug_77
+  - first:
+      213: -4874332331793053031
+    second: AnimatedBug_78
+  - first:
+      213: 2951169196632881116
+    second: AnimatedBug_79
+  - first:
+      213: -1507267549060985133
+    second: AnimatedBug_80
+  - first:
+      213: -1987529402248645037
+    second: AnimatedBug_81
+  - first:
+      213: 2549699449877770331
+    second: AnimatedBug_82
+  - first:
+      213: 7640768067144406265
+    second: AnimatedBug_83
+  - first:
+      213: -2984998659626462612
+    second: AnimatedBug_84
+  - first:
+      213: 8116509137389632202
+    second: AnimatedBug_85
+  - first:
+      213: 1980911840457972123
+    second: AnimatedBug_86
+  - first:
+      213: -5479175903228504403
+    second: AnimatedBug_87
+  - first:
+      213: 6920101676350457542
+    second: AnimatedBug_88
+  - first:
+      213: -1722255033434388035
+    second: AnimatedBug_89
+  - first:
+      213: 867170761647408133
+    second: AnimatedBug_90
+  - first:
+      213: 5025982423764684963
+    second: AnimatedBug_91
+  - first:
+      213: 2146247232057243800
+    second: AnimatedBug_92
+  - first:
+      213: -7430486458460188683
+    second: AnimatedBug_93
+  - first:
+      213: 797105700078734048
+    second: AnimatedBug_94
+  - first:
+      213: 3330774333528196913
+    second: AnimatedBug_95
+  - first:
+      213: 779165948712279830
+    second: AnimatedBug_96
+  - first:
+      213: -2288367008880050323
+    second: AnimatedBug_97
+  - first:
+      213: 705308380336993755
+    second: AnimatedBug_98
+  - first:
+      213: -2930039726887797383
+    second: AnimatedBug_99
+  - first:
+      213: 4189136975384581428
+    second: AnimatedBug_100
+  - first:
+      213: -5686256481361939664
+    second: AnimatedBug_101
+  - first:
+      213: -5856923097893138388
+    second: AnimatedBug_102
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimatedBug_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 700
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -197, y: -82.5}
+        - {x: -180, y: -82.5}
+        - {x: -138, y: -89.5}
+        - {x: -109, y: -88.5}
+        - {x: -90, y: -87.5}
+        - {x: -70, y: -84.5}
+        - {x: -26, y: -86.5}
+        - {x: -5, y: -86.5}
+        - {x: 21, y: -90.5}
+        - {x: 53, y: -91.5}
+        - {x: 68, y: -91.5}
+        - {x: 95, y: -92.5}
+        - {x: 109, y: -91.5}
+        - {x: 131, y: -86.5}
+        - {x: 190, y: -72.5}
+        - {x: 212, y: -65.5}
+        - {x: 281, y: -48.5}
+        - {x: 312, y: -37.5}
+        - {x: 329, y: -24.5}
+        - {x: 333, y: -19.5}
+        - {x: 337, y: -8.5}
+        - {x: 337, y: 7.5}
+        - {x: 329, y: 11.5}
+        - {x: 328, y: 20.5}
+        - {x: 316, y: 34.5}
+        - {x: 291, y: 46.5}
+        - {x: 274, y: 52.5}
+        - {x: 246, y: 60.5}
+        - {x: 179, y: 80.5}
+        - {x: 156, y: 83.5}
+        - {x: 142, y: 84.5}
+        - {x: 129, y: 89.5}
+        - {x: 106, y: 95.5}
+        - {x: 22, y: 93.5}
+        - {x: 3, y: 89.5}
+        - {x: -27, y: 89.5}
+        - {x: -38, y: 91.5}
+        - {x: -83, y: 92.5}
+        - {x: -57, y: 91.5}
+        - {x: -137, y: 93.5}
+        - {x: -160, y: 92.5}
+        - {x: -176, y: 87.5}
+        - {x: -187, y: 90.5}
+        - {x: -205, y: 87.5}
+        - {x: -252, y: 85.5}
+        - {x: -293, y: 69.5}
+        - {x: -323, y: 69.5}
+        - {x: -336, y: 44.5}
+        - {x: -338, y: -1.5}
+        - {x: -338, y: -36.5}
+        - {x: -331, y: -58.5}
+        - {x: -318, y: -66.5}
+        - {x: -304, y: -67.5}
+        - {x: -287, y: -66.5}
+        - {x: -267, y: -74.5}
+        - {x: -255, y: -77.5}
+        - {x: -222, y: -82.5}
+      tessellationDetail: 0.2
+      bones: []
+      spriteID: 0d9d445078be52210800000000000000
+      internalID: 1307710231962507728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimatedBug_1
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 0
+        width: 700
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14, y: -92.5}
+        - {x: 35, y: -95.5}
+        - {x: 89, y: -95.5}
+        - {x: 120, y: -94.5}
+        - {x: 146, y: -92.5}
+        - {x: 155, y: -83.5}
+        - {x: 177, y: -83.5}
+        - {x: 208, y: -76.5}
+        - {x: 232, y: -67.5}
+        - {x: 265, y: -59.5}
+        - {x: 302, y: -45.5}
+        - {x: 315, y: -39.5}
+        - {x: 327, y: -33.5}
+        - {x: 340, y: -20.5}
+        - {x: 348, y: -8.5}
+        - {x: 349, y: -6.5}
+        - {x: 349, y: 5.5}
+        - {x: 342, y: 8.5}
+        - {x: 345, y: 19.5}
+        - {x: 334, y: 31.5}
+        - {x: 314, y: 41.5}
+        - {x: 274, y: 52.5}
+        - {x: 217, y: 67.5}
+        - {x: 202, y: 72.5}
+        - {x: 179, y: 78.5}
+        - {x: 149, y: 84.5}
+        - {x: 143, y: 87.5}
+        - {x: 116, y: 91.5}
+        - {x: 82, y: 91.5}
+        - {x: 64, y: 92.5}
+        - {x: 34, y: 89.5}
+        - {x: 11, y: 83.5}
+        - {x: -13, y: 86.5}
+        - {x: -58, y: 84.5}
+        - {x: -85, y: 88.5}
+        - {x: -101, y: 90.5}
+        - {x: -126, y: 88.5}
+        - {x: -145, y: 88.5}
+        - {x: -164, y: 81.5}
+        - {x: -183, y: 82.5}
+        - {x: -202, y: 81.5}
+        - {x: -221, y: 81.5}
+        - {x: -256, y: 75.5}
+        - {x: -272, y: 67.5}
+        - {x: -292, y: 66.5}
+        - {x: -326, y: 39.5}
+        - {x: -326, y: -7.5}
+        - {x: -322, y: -56.5}
+        - {x: -279, y: -71.5}
+        - {x: -213, y: -89.5}
+        - {x: -163, y: -87.5}
+        - {x: -143, y: -93.5}
+        - {x: -124, y: -92.5}
+        - {x: -106, y: -88.5}
+        - {x: -83, y: -93.5}
+        - {x: -70, y: -92.5}
+        - {x: -53, y: -93.5}
+        - {x: -6, y: -92.5}
+      tessellationDetail: 0.2
+      bones: []
+      spriteID: 56a7d8d9d7051d160800000000000000
+      internalID: 7048503392255965797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
