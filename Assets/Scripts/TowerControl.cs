@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class TowerControl : MonoBehaviour
 {
-    [SerializeField] private float Range = 10f;
+    [SerializeField] private float range = 2f;
     [SerializeField] private ParticleSystem Weapon;
     [SerializeField] private float WeaponFireRate = 1f;
-    private GameObject Target;
+    private GameObject Target = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,6 @@ public class TowerControl : MonoBehaviour
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePos - transform.position);
         */
-        FindOldestTarget();
         if (Target != null)
         {
             Weapon.emissionRate = WeaponFireRate;
@@ -32,6 +31,7 @@ public class TowerControl : MonoBehaviour
         else
         {
             Weapon.emissionRate = 0;
+            FindOldestTarget();
         }
     }
     private void FindOldestTarget()
