@@ -57,7 +57,9 @@ public class Bug : MonoBehaviour
 
     private void GoalReached()
     {
-        Debug.Log(this.gameObject.name + " reached the end. HP lost.");
+        Debug.Log(this.gameObject.name + " reached the end. HP lost." + System.Environment.NewLine +
+            "Player HP: " + ScoreKeeper.GetPlayerHP());
+        ScoreKeeper.DamagePlayer(1);
         Destroy(this.gameObject);
     }
 

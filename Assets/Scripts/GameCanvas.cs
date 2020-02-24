@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameCanvas : MonoBehaviour
 {
     [SerializeField] public GameObject Score;
+    [SerializeField] public GameObject HP;
     void Awake()
     {
         GameCanvas[] canvas = FindObjectsOfType<GameCanvas>();
@@ -14,16 +15,5 @@ public class GameCanvas : MonoBehaviour
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
