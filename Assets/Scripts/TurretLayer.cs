@@ -6,7 +6,7 @@ public class TurretLayer : MonoBehaviour
 {
     private ScoreKeep ScoreKeeper;
     [SerializeField] private GameObject[] Turrets;
-    private int selectedTurret = 0;
+    private int selectedTurret = -1;
     private GameObject gameCanvas;
     private int money;
     // Start is called before the first frame update
@@ -20,10 +20,13 @@ public class TurretLayer : MonoBehaviour
     void Update()
     {
         money = ScoreKeeper.GetMoney();
-        if (Input.GetMouseButtonDown(0))
+        if (selectedTurret >= 0)
         {
-            Debug.Log("Placing tower");
-            PlaceTurret();
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("Placing tower");
+                PlaceTurret();
+            }
         }
     }
     public void PlaceTurret()
@@ -35,6 +38,7 @@ public class TurretLayer : MonoBehaviour
             tempTurret.transform.parent = this.transform;
             ScoreKeeper.SpendMoney(300);
             Debug.Log("Tower placed");
+            selectedTurret = -1;
         }
         else
         {

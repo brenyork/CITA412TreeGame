@@ -673,7 +673,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1125219339
-  m_SortingLayer: 1
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 54c363c3c815d9940b7968fffbf0c698, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1075,6 +1075,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1652634524, guid: 4e43d11e2c9ac75479d0f82061898712, type: 3}
+      propertyPath: TL
+      value: 
+      objectReference: {fileID: 985510225}
     - target: {fileID: 1939547707154592472, guid: 4e43d11e2c9ac75479d0f82061898712,
         type: 3}
       propertyPath: m_Name
@@ -1200,6 +1204,41 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 247555372}
+    - target: {fileID: 8055456454763363155, guid: 4e43d11e2c9ac75479d0f82061898712,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055456454763363155, guid: 4e43d11e2c9ac75479d0f82061898712,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055456454763363155, guid: 4e43d11e2c9ac75479d0f82061898712,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055456454763363155, guid: 4e43d11e2c9ac75479d0f82061898712,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 985510227}
+    - target: {fileID: 8055456454763363155, guid: 4e43d11e2c9ac75479d0f82061898712,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetTurret
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055456454763363155, guid: 4e43d11e2c9ac75479d0f82061898712,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055456454763363155, guid: 4e43d11e2c9ac75479d0f82061898712,
+        type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e43d11e2c9ac75479d0f82061898712, type: 3}
 --- !u!1001 &4046945614759187574
