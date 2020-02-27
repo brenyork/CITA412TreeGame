@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Path
+  - Tower
   layers:
   - Default
   - TransparentFX
@@ -13,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Bug
   - 
   - 
   - 
@@ -38,6 +40,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3169747957
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Game
+    uniqueID: 3184633459
     locked: 0

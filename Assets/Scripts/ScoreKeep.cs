@@ -6,12 +6,14 @@ using TMPro;
 public class ScoreKeep : MonoBehaviour
 {
     private int Score = 0;
-    private int Money = 0;
+    private int Money = 300;
     private int lastScore = 0;
     private int playerHP = 10;
+    private int LevelScore = 0;
     private GameCanvas gameCanvas;
     private GameObject score;
     private GameObject hp;
+    public int lastLvl;
     void Awake()
     {
         ScoreKeep[] navs = FindObjectsOfType<ScoreKeep>();
@@ -32,11 +34,21 @@ public class ScoreKeep : MonoBehaviour
     }
     void Update()
     {
+        if (LevelScore >= 10000)
+        {
+            MenuNav mn = FindObjectOfType<MenuNav>();
+            mn.ToNextLevel();
+        }
+        if (playerHP <= 0)
+        {
+            MenuNav mn = FindObjectOfType<MenuNav>();
+            mn.ToNextLevel();
+        }
+        score.GetComponent<TextMeshProUGUI>().text = "Money: " + Money;
         if (lastScore != Score)
         {
             lastScore = Score;
             Debug.Log(this.gameObject.name + ": Score is " + Score + "." + System.Environment.NewLine + "Money is " + Money + ".");
-            score.GetComponent<TextMeshProUGUI>().text = "Money: " + Money;
         }
         hp.GetComponent<TextMeshProUGUI>().text = "HP: " + playerHP;
     }
@@ -45,10 +57,15 @@ public class ScoreKeep : MonoBehaviour
     {
         Score += score;
         Money += score;
+        LevelScore += score;
     }
     public int GetScore()
     {
         return Score;
+    }
+    public void SetScore(int a)
+    {
+        Score = a;
     }
     public void SpendMoney(int amount)
     {
@@ -57,6 +74,10 @@ public class ScoreKeep : MonoBehaviour
     public int GetMoney()
     {
         return Money;
+    }
+    public void SetMoney(int a)
+    {
+        Money = a;
     }
     public int GetPlayerHP()
     {

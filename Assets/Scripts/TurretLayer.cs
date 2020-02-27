@@ -5,7 +5,8 @@ using UnityEngine;
 public class TurretLayer : MonoBehaviour
 {
     private ScoreKeep ScoreKeeper;
-    private GameObject[] Turrets;
+    [SerializeField] private GameObject[] Turrets;
+    private int selectedTurret = 0;
     private GameObject gameCanvas;
     private int money;
     // Start is called before the first frame update
@@ -19,5 +20,29 @@ public class TurretLayer : MonoBehaviour
     void Update()
     {
         money = ScoreKeeper.GetMoney();
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("Placing tower");
+            PlaceTurret();
+        }
+    }
+    public void PlaceTurret()
+    {
+        if (money >= 300)
+        {
+            GameObject tempTurret = Instantiate(Turrets[selectedTurret]);
+            tempTurret.transform.position = Input.mousePosition;
+            tempTurret.transform.parent = this.transform;
+            ScoreKeeper.SpendMoney(300);
+            Debug.Log("Tower placed");
+        }
+        else
+        {
+            Debug.Log("Need more money");
+        }
+    }
+    public void SetTurret(int i)
+    {
+        selectedTurret = i;
     }
 }

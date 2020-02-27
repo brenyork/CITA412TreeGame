@@ -7,7 +7,7 @@ public class Bug : MonoBehaviour
     [SerializeField] private int LifePerFrame = 2;
     private int Life;
     private float HP;
-    [SerializeField] private float MaxSpeed = 2;
+    [SerializeField] private float MaxSpeed = 48;
     private float Speed;
     private ScoreKeep ScoreKeeper;
     private Transform Target;

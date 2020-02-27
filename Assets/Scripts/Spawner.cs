@@ -18,10 +18,10 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Money += 1;
-        if (transform.childCount < MaxSpawned && Money > 200)
+        Money += 2;
+        if (transform.childCount < MaxSpawned && Money > 400)
         {
-            Money -= 200;
+            Money -= 400;
             GameObject tempBug = Instantiate(Spawnables[0]);
             tempBug.transform.position = this.transform.position;
             tempBug.transform.parent = this.transform;
